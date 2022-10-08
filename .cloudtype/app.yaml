@@ -1,0 +1,8 @@
+name: hjcm_shopping_page_redirect
+app: dockerfile
+options:
+  ports: 8080
+  dockerfile: Dockerfile
+  git:
+    branch: main
+    url: https://github.com/doch2/hjcm_shopping_page_redirect.git
